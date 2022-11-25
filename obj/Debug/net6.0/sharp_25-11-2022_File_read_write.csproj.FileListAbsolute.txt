@@ -1,0 +1,15 @@
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\bin\Debug\net6.0\sharp_25-11-2022_File_read_write.exe
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\bin\Debug\net6.0\sharp_25-11-2022_File_read_write.deps.json
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\bin\Debug\net6.0\sharp_25-11-2022_File_read_write.runtimeconfig.json
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\bin\Debug\net6.0\sharp_25-11-2022_File_read_write.dll
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\bin\Debug\net6.0\sharp_25-11-2022_File_read_write.pdb
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\sharp_25-11-2022_File_read_write.csproj.AssemblyReference.cache
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\sharp_25-11-2022_File_read_write.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\sharp_25-11-2022_File_read_write.AssemblyInfoInputs.cache
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\sharp_25-11-2022_File_read_write.AssemblyInfo.cs
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\sharp_25-11-2022_File_read_write.csproj.CoreCompileInputs.cache
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\sharp_25-11-2022_File_read_write.dll
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\refint\sharp_25-11-2022_File_read_write.dll
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\sharp_25-11-2022_File_read_write.pdb
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\sharp_25-11-2022_File_read_write.genruntimeconfig.cache
+C:\Users\profi\Documents\Git Hub\sharp_25-11-2022_File_read_write\obj\Debug\net6.0\ref\sharp_25-11-2022_File_read_write.dll
