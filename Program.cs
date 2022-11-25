@@ -8,20 +8,40 @@ using System.Text;
 using System.IO;
 using System.Text;
 using static System.Console;
-static void WriteFile(string filePath)
+
+
+
+
+
+WriteLine("Введите имя файла");
+string filePath = ReadLine() + ".txt";
+
+
+newfile(filePath);
+
+void newfile(string filePath) // TODO  метод для создания и записи 
+{ 
+using (FileStream fs = new FileStream(filePath,FileMode.Create))
 {
-    using (FileStream fs = new FileStream(filePath,
-FileMode.Create, FileAccess.Write,
-FileShare.None))
-{
-    // получаем данные для записи в файл
-    WriteLine("Enter the data to writeto the file: ");
-    string writeText = ReadLine();
-    // преобразуем строку в массив байт
-    byte[] writeBytes = Encoding.Default.
-    GetBytes(writeText);
-    // записываем данные в файл
-    fs.Write(writeBytes, 0, writeBytes.Length);
-    WriteLine("Information recorded!");
+    using (StreamWriter sw = new StreamWriter(fs,Encoding.Unicode))
+    {
+// получаем данные для записи в файл
+WriteLine("Enter the data to writeto the file: ");
+string writeText = ReadLine();
+        // записываем данные в файл
+        sw.WriteLine(writeText);
+        foreach (var item in writeText)
+        {
+            sw.Write($"{item}_");
+        }
+        WriteLine("\nData recorded!");
+    }
 }
+}
+
+void print(string filePath) // TODO  для чтения )
+{
+
+
+
 }
