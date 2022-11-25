@@ -18,6 +18,7 @@ string filePath = ReadLine() + ".txt";
 
 
 newfile(filePath);
+readfile(filePath);
 
 void newfile(string filePath) // TODO  метод для создания и записи 
 { 
@@ -38,10 +39,22 @@ string writeText = ReadLine();
     }
 }
 }
-
-void print(string filePath) // TODO  для чтения )
+ // TODO  для чтения )
+void readfile(string filePath)
 {
+    // выделяем массив для считывания данных из файла
+    using (FileStream fs = new FileStream(filePath,
+ FileMode.Open))
+    {
+        using (StreamReader sr =
+        new StreamReader(fs,
+        Encoding.Unicode))
+        {
+            // выводим результат на консоль
+            WriteLine($"Читаем данные из файла:\n");
+            WriteLine(sr.ReadToEnd()); // получаем все данные из файла
 
-
-
+        }
+    }
+    Console.WriteLine($"Текст взят из файла: {filePath}");
 }
